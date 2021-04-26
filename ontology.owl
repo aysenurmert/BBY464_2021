@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:a321b064-757b-4a69-87a4-5a4d24d87c4e#"
+     xml:base="urn:webprotege:ontology:a321b064-757b-4a69-87a4-5a4d24d87c4e"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:a321b064-757b-4a69-87a4-5a4d24d87c4e"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1ikPda3fqyfPz3hj2QRyr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1ikPda3fqyfPz3hj2QRyr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDObc7BX9cQzrO5LZxfs4aE"/>
+        <rdfs:label>Cookbook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZKmrKHZGdRN00VgUfgBCA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZKmrKHZGdRN00VgUfgBCA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPDWbT6dGIQW5TT6CJSYzI"/>
+        <rdfs:label>Science Journals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9e86BWUeEdTOFU23TU2ekT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9e86BWUeEdTOFU23TU2ekT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDObc7BX9cQzrO5LZxfs4aE"/>
+        <rdfs:label>Art</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDnLkyPFdLjPW5SrNcifqo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBDnLkyPFdLjPW5SrNcifqo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDObc7BX9cQzrO5LZxfs4aE"/>
+        <rdfs:label>Dictionary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBs5kMK02v2hZVPCh4cddan -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBs5kMK02v2hZVPCh4cddan">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBjffI80qBn7VQj4ArkvIe"/>
+        <rdfs:label>Magazine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBv6ZfDPM4sYci4D5H6zFAj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBv6ZfDPM4sYci4D5H6zFAj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPDWbT6dGIQW5TT6CJSYzI"/>
+        <rdfs:label>History Journals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBjffI80qBn7VQj4ArkvIe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBjffI80qBn7VQj4ArkvIe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDObc7BX9cQzrO5LZxfs4aE"/>
+        <rdfs:label>Serial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCV234FXPYcZhxFIjyOVXkX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCV234FXPYcZhxFIjyOVXkX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZKmrKHZGdRN00VgUfgBCA"/>
+        <dc:description rdf:resource="https://www.journals.elsevier.com/the-journal-of-academic-librarianship"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Started in 1981, DESIDOC Journal of Library and Information Technology (DJLIT) is a peer-reviewed, double-blind, open access, bi-monthly journal that publishes original research and review papers related to library science and IT applied to library activities, services, and products. 
+It is meant for librarians, documentation and information professionals, researchers, students and others interested in the field.
+DJLIT is now indexed in Scopus, Web of Science (Emerging Source Citation Index), UGC-CARE, Dimensions, LISA, LISTA, EBSCO, J-Gate Plus, Proquest, Library Literature and Information Science Index/Full-text, The Informed Librarian Online, Indian Science Abstracts, Indian Citation Index, WorldCat, Google Scholar, etc.</dc:description>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Defence Scientific Information &amp; Documentation Centre</dc:publisher>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elsevier</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collection building &amp; management</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">College libraries</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information behaviour &amp; retrieval</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information systems</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge management</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Librarianship/library management</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Library &amp; information services</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Records management &amp; preservation</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University libraries</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DESIDOC Journal of Library &amp; Information Technology</dc:title>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Journal of Academic Librarianship</dc:title>
+        <rdfs:label>Library science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCb6RNuX2y1hh4OkcyutZmY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCb6RNuX2y1hh4OkcyutZmY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBjffI80qBn7VQj4ArkvIe"/>
+        <rdfs:label>Newspaper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCklDDgkn1lZZWJWam9yemm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCklDDgkn1lZZWJWam9yemm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDObc7BX9cQzrO5LZxfs4aE"/>
+        <rdfs:label>History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDObc7BX9cQzrO5LZxfs4aE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDObc7BX9cQzrO5LZxfs4aE">
+        <rdfs:label>Non-Fiction Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDuPZEB9TpYuoE4xm53BioK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDuPZEB9TpYuoE4xm53BioK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZKmrKHZGdRN00VgUfgBCA"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jotham Momba</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;2015&quot;</dc:date>
+        <dc:description rdf:resource="https://scholarship.law.cornell.edu/zssj/"/>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newcastle upon Tyne: Cambridge Scholars Publishing</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zambia Social Science Journal</dc:title>
+        <rdfs:label>Business and Economy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMm7amNpNp33Z3YL2ZQAFz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMm7amNpNp33Z3YL2ZQAFz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPDWbT6dGIQW5TT6CJSYzI"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chairman of the Board of Trustees on behalf of Ahmet Yesevi University Prof. Dr. Muhittin ŞİMŞEK</dc:creator>
+        <dc:description rdf:resource="http://bilig.yesevi.edu.tr/"/>
+        <dc:description rdf:resource="https://www.millifolklor.com/"/>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmet Yesevi University</dc:publisher>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geleneksel Yayıncılık Eğt. San. Tic. Ltd. Şti.</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthropology</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cultural studies</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethnology</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Folklore</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Literature</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social science</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilig</dc:title>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milli Folklor</dc:title>
+        <rdfs:label>Literal Journals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPDWbT6dGIQW5TT6CJSYzI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPDWbT6dGIQW5TT6CJSYzI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBjffI80qBn7VQj4ArkvIe"/>
+        <rdfs:label>Journal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWLzEpIIWvVrZ4XPpgni6m -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWLzEpIIWvVrZ4XPpgni6m">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPDWbT6dGIQW5TT6CJSYzI"/>
+        <rdfs:label>Law Journals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rec1Vh5EOaHB8KjY9jo0Ks -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rec1Vh5EOaHB8KjY9jo0Ks">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPDWbT6dGIQW5TT6CJSYzI"/>
+        <rdfs:label>Health Journals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrhmE8wWRTldEyckl0NmMI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrhmE8wWRTldEyckl0NmMI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDObc7BX9cQzrO5LZxfs4aE"/>
+        <rdfs:label>Autobiography</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
